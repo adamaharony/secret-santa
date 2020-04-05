@@ -13,5 +13,5 @@ Then you just run everything with `npm start`!
   - [Node.JS](https://nodejs.org)
   - [Electron](https://electronjs.org)
 
-### Example: 
+## Example: 
 ![UI Example](/GUI/screenshot.png "UI Example")
