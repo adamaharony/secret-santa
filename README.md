@@ -9,7 +9,7 @@ First, you install electron with `npm install`.
 Then you just run everything with `npm start`!
 
 
-## Requirements:
+### Requirements:
   - [Node.JS](https://nodejs.org)
   - [Electron](https://electronjs.org)
 
