@@ -1,0 +1,16 @@
+{
+  "name": "secret-santa",
+  "version": "1.0.0",
+  "description": "An Electron app to find every player their Secret Santa.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Adam A.",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^8.2.0"
+  }
+}

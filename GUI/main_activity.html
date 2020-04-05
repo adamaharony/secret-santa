@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secret Santa Combination Finder</title>
+    <link rel="stylesheet" href="./style/bulma.css">
+    <script src="script.js"></script>
+    <style>
+        #results {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero is-medium is-primary is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title is-1">
+                    Secret Santa wombo-combo finder:
+                </h1>
+                <h2 class="subtitle">
+                    For the ultimate random experience.
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="hero is-warning is-small is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="subtitle is-4">
+                    Enter all of the names here, one per line:
+                </h1>
+                <div class="tile is-parent">
+                    <article class="tile is-child notification is-danger is-bold">
+                        <div class="content">
+                            <textarea id="names" class="textarea is-warning" placeholder="Insert names here:" rows="10"></textarea>
+                            <button onclick="wombocombo()" class="button is-warning is-fullwidth">Find players!</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="results" class="hero is-dark is-small is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="subtitle is-4">
+                    Here are all of the wombo-combos:
+                </h1>
+                <div class="container">
+                    <div id="list" class="list is-hoverable"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>SecretSanta</strong> by <a href="https://github.com/adamaharony">Adam Aharony</a>.
+                <br />
+                All of the code is available on <a href="https://github.com/adamaharony/SecretSanta">Github</a>, feel free to modify it!
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
